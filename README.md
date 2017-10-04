@@ -16,9 +16,15 @@ A material design element for bottom navigation and tabs
 ```
 -->
 ```html
-<paperfire-labeled-icon label="Gallery" active><iron-icon icon="gallery"></iron-icon></paperfire-labeled-icon>
-<paperfire-labeled-icon label="Content" ><iron-icon icon="content"></iron-icon></paperfire-labeled-icon>
+<paperfire-labeled-icon label="Gallery" active><svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="#000000" d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
+</svg></paperfire-labeled-icon>
+<paperfire-labeled-icon label="Content" ><svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="#000000" d="M4,5V7H21V5M4,11H21V9H4M4,19H21V17H4M4,15H21V13H4V15Z" />
+</svg></paperfire-labeled-icon>
 ```
+
+Designed to work with `iron-icon` and `iron-selector`
 
 ## Install the Polymer-CLI
 
