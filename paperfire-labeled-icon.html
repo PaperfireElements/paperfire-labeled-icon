@@ -1,0 +1,50 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="paperfire-labeled-icon">
+    <template>
+        <style>
+             :host {
+                display: block;
+                --scale-amount: 0.9;
+
+            }
+
+            span {
+                text-align: center;
+                font-size: 0.68em;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                transition: all 200ms;
+            }
+
+            .container:hover, .container.active-true {
+                transform: translateY(-0.1em);
+                font-size: 1.1em;
+            }
+        </style>
+        <div class$="container active-[[active]]">
+            <slot></slot>
+            <span>[[label]]</span>
+        </div>
+    </template>
+    <script>
+        class PaperfireLabeledIcon extends Polymer.Element {
+            static get is() {
+                return 'paperfire-labeled-icon';
+            }
+            static get properties() {
+                return {
+                    active: Boolean,
+                    label: String
+                }
+            }
+        }
+
+        window.customElements.define(PaperfireLabeledIcon.is, PaperfireLabeledIcon);
+    </script>
+</dom-module>
