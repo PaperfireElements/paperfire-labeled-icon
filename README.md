@@ -1,6 +1,24 @@
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg?style=flat-square)](https://www.webcomponents.org/element/PaperfireElements/paperfire-labeled-icon)
+
 # \<paperfire-icon-tab\>
 
 A material design element for bottom navigation and tabs
+
+<!--
+```
+<custom-element-demo>
+  <template>
+    <link rel="import" href="paperfire-labeled-icon.html">
+    <link rel="import" href="../iron-icon/iron-icon.html">
+    <next-code-block></next-code-block>
+  </template>
+</custom-element-demo>
+```
+-->
+```html
+<paperfire-labeled-icon label="Gallery" active><iron-icon icon="gallery"></iron-icon></paperfire-labeled-icon>
+<paperfire-labeled-icon label="Content" ><iron-icon icon="content"></iron-icon></paperfire-labeled-icon>
+```
 
 ## Install the Polymer-CLI
 
