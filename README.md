@@ -1,8 +1,8 @@
 [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg?style=flat-square)](https://www.webcomponents.org/element/PaperfireElements/paperfire-labeled-icon)
 
-# \<paperfire-icon-tab\>
+# \<paperfire-labeled-icon\>
 
-A material design element for bottom navigation and tabs
+An element following material design for bottom navigation
 
 <!--
 ```

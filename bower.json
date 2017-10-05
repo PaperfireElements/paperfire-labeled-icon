@@ -1,6 +1,6 @@
 {
   "name": "paperfire-labeled-icon",
-  "version": "v1.0.1",
+  "version": "v1.0.2",
   "description": "A material design element for bottom navigation and tabs",
   "main": "paperfire-labeled-icon.html",
   "dependencies": {
